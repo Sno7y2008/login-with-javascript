@@ -1,0 +1,154 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #607d8b;
+}
+
+
+#Register, #login {
+    margin-top: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 370px;
+    gap: 30px 20px;
+    border-radius: 9px;
+    background-color: #eee;
+}
+
+#login {
+    position: absolute;
+    visibility: hidden;
+}
+
+#username, #username_1 {
+    border: solid 2px grey;
+    border-radius: 10px;
+    width: 270px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+#username, #username_1::placeholder {
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+#email, #email_1 {
+    border: solid 2px grey;
+    border-radius: 10px;
+    width: 270px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+#email, #email_1::placeholder {
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+#password, #password_1 {
+    border: solid 2px grey;
+    border-radius: 10px;
+    width: 270px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+#password, #password_1::placeholder {
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.h2 {
+    margin: 8px;
+    color: crimson;
+}
+
+
+#btn_1, #btn_2, #Next, #Back {
+    border: solid 2px grey;
+    width: 170px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#btn_1 {
+    width: 130px;
+    margin-left: 10px;
+}
+
+#btn_2 {
+    width: 130px;
+    margin-left: 10px;
+}
+
+#Next {
+    width: 130px;
+    margin-left: 10px;
+    display: none;
+}
+
+#Back {
+    width: 130px;
+    margin-left: 10px;
+    
+}
+
+.req, .reqe {
+   display: none;
+   position: absolute;
+   margin-bottom: 370px;
+   text-align: center;
+   width: 270px;
+   height: 53px;
+   border-radius: 50px;
+   background-color: #eee;
+}
+
+
+.req::before {
+    content: "";
+    position: absolute;
+    border: solid 10px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: #eee;
+    border-left-color: transparent;
+    margin-top: 53px;
+    left: 127px;
+}
+
+p, p2 {
+    color: red;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
